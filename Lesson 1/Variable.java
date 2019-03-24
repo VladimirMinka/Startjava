@@ -18,6 +18,6 @@ public class Variable {
         System.out.println(UsbType);
         System.out.println(laptop);
     
-}
+    }
 }   
       
