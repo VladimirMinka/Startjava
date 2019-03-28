@@ -25,10 +25,10 @@ public class ConditionalStatement {
         
         if (name == 'В') {
             System.out.println("Моё имя начинается с буквы:" + " " + name);
-    } else if (name == 'И') {
+        } else if (name == 'И') {
             System.out.println("Моё имя начинается  с буквы:" + name);
         } else {
             System.out.println("Моё имя начинается с неизвестной буквы:" + name);
-    }
+        }
     }
 }
