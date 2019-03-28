@@ -8,6 +8,7 @@ public class Variable {
         double display  =  15.6;
         char usbType = 'c';
         boolean laptop = true;
+		
         System.out.println(ram);
         System.out.println(rom);
         System.out.println(corei);
@@ -16,6 +17,5 @@ public class Variable {
         System.out.println(display);
         System.out.println(usbType);
         System.out.println(laptop);
-        }
-    }   
-       
+	}
+}  
