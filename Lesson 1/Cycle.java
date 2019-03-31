@@ -11,13 +11,13 @@ public class Cycle {
         }
 
         int numbers = 10;
-        int sum = 0;
+        int currentNumber = 0;
         do {
             if (numbers % 2 == 1) {
-                sum += numbers;
+                currentNumber += numbers;
             }
             numbers++;
         } while (numbers <= 20);
-        System.out.print(sum);
+        System.out.print(currentNumber);
     }
 }
