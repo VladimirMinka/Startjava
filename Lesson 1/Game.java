@@ -6,5 +6,5 @@ public class Game  {
         if(inputnumber == answer)
         System.out.println("You guessed");
         else System.out.println("The number entered by you is more (less) than the fact that thought of the computer");
-   }
+    }
 }
