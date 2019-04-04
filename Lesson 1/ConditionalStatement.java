@@ -1,34 +1,34 @@
 public class ConditionalStatement {
     public static void main(String[] args) {
+
         int age = 37;
-        double growth = 1.83;
-        boolean male = true;
-        char name = 'В';
-
         if (age > 20) {
-            System.out.println("Мне больше 20 лет" + "," + " " + "Мне" + " " + age + " " + " лет");
+            System.out.println("I am more than 20 years old" + "," + " " + "I am" + " " + age + " " + "years");
         }
 
-        if (male) {
-            System.out.println("Я мужчина");
+        boolean isMale = true;
+        if (isMale) {
+            System.out.println("I am man");
         }
 
-        if (!male) {
-            System.out.println("Я женщина");
+        if (!isMale) {
+            System.out.println("I am woman");
         }
 
+        double growth = 1.83;
         if (growth < 1.80) {
-            System.out.println("Мой рост 1.80 м");
+            System.out.println("My growth 1.80 м");
         } else {
-            System.out.println("Мой рост больше 1.80" + ", " + "мой рост" + " " + growth);
+            System.out.println("My growth more 1.80" + ", " + "My growth" + " " + growth);
         }
-        
-        if (name == 'В') {
-            System.out.println("Моё имя начинается с буквы:" + " " + name);
-        } else if (name == 'И') {
-            System.out.println("Моё имя начинается  с буквы:" + name);
+
+        char name = 'V';
+        if (name == 'V') {
+            System.out.println("My name begins with a letter:" + " " + name);
+        } else if (name == 'I') {
+            System.out.println("My name begins with a letter:" + name);
         } else {
-            System.out.println("Моё имя начинается с неизвестной буквы:" + name);
+            System.out.println("My name begins with an unknown letter:" + name);
         }
     }
 }
