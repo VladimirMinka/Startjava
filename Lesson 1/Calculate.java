@@ -4,6 +4,7 @@ public class Calculate {
         int b = 60;
         char operation = '*';
         int result = 0;
+
         if (a > 0 && b > 0) {
         if (operation == '+') {
                 result = a + b;
