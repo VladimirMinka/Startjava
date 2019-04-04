@@ -28,6 +28,6 @@ public class Calculate {
         }  else {
         System.out.println("The calculator works only with positive integers");
         }
-        }
+    }
 }
 
