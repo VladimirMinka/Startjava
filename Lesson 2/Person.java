@@ -12,25 +12,22 @@ public class Person {
     //идти, сидеть, бежать, говорить, учить Java
 
     void walk() {
-    System.out.println("name:" + " " + "is" +" " + "walk");
+        System.out.println("name:" + " " + "is" +" " + "walk");
     }
 
     void sit() {
-        System.out.println("name:" + " " + "is" +" " + "sit");
+        System.out.println("name:" + " " + "is" + " " + "sit");
     }
 
     void run() {
-        System.out.println("name:" + " " + "is" +" " + "run");
+        System.out.println("name:" + " " + "is" + " " + "run");
     }
 
     void speak() {
-        System.out.println("name:" + " " + "is" +" " + "speak");
+        System.out.println("name:" + " " + "is" + " " + "speak");
     }
 
     void learn() {
-        System.out.println("name:" + " " + "is" +" " + "learn");
+        System.out.println("name:" + " " + "is" + " " + "learn");
     }
 }
-
-
-
