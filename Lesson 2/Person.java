@@ -14,19 +14,19 @@ public class Person {
     System.out.println("name:" + " " + "is" +" " + "walk");
     }
 
-     void sit(); {
+    void sit() {
         System.out.println("name:" + " " + "is" +" " + "sit");
     }
 
-        void run(); {
+    void run() {
         System.out.println("name:" + " " + "is" +" " + "run");
     }
 
-        void speak(); {
+    void speak() {
         System.out.println("name:" + " " + "is" +" " + "speak");
     }
 
-        void learn(); {
+    void learn() {
         System.out.println("name:" + " " + "is" +" " + "learn");
     }
 }
