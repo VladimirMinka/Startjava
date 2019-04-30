@@ -2,10 +2,8 @@
     //присвойте в нем полям экземпляра класса Wolf какие-то значения
     //считайте эти значения из полей и отобразите в консоли
     //вызовите методы объекта
-class WolfTest {
-
-public static void main(String[] args) {
-
+public class WolfTest {
+    public static void main(String[] args) {
         Wolf wolf = new Wolf();
         wolf.setGender("man");
         wolf.setName("Bim");
