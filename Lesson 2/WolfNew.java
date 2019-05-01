@@ -14,6 +14,7 @@ public class WolfNew {
     public String getGender() {
         return gender;
     }
+
     public void setGender(String gender) {
         this.gender = gender;
     }
@@ -21,6 +22,7 @@ public class WolfNew {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -28,6 +30,7 @@ public class WolfNew {
     public double getWeight() {
         return weight;
     }
+
     public void setWeight(double weight) {
         this.weight = weight;
     }
@@ -35,6 +38,7 @@ public class WolfNew {
     public int getAge() {
         return age;
     }
+
     public void setAge(int age) {
             if(age > 8) {
                     System.out.println("Incorrect age");
