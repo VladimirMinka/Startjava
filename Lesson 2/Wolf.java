@@ -35,7 +35,7 @@ public class Wolf {
 
     public void setAge(int age) {
             if(age > 8) {
-            System.out.println("Incorrect age");
+                System.out.println("Incorrect age");
             } else {
                    this.age = age;
             }
@@ -44,6 +44,7 @@ public class Wolf {
     public String getColor() {
         return color;
     }
+
     public void setColor(String color) {
         this.color = color;
     }
