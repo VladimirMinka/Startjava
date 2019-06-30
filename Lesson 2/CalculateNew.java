@@ -1,51 +1,51 @@
 public class CalculateNew {
-        int firstnumber = 2;
-        int secondnumber = 10;
-        char operation = '^';
-        int result;
 
-        public void setFirstnumber(int firstnumber) {
-                this.firstnumber = firstnumber;
+        private int firstNumber;
+        private int secondNumber;
+        private char operation;
+
+        public void setFirst(int firstNumber) {
+                this.firstNumber = firstNumber;
         }
 
-        public void setSecondnumber(int secondnumber) {
-                this.secondnumber = secondnumber;
+        public void setSecond(int secondNumber) {
+                this.secondNumber = secondNumber;
         }
 
-        public void setOperation(char operation) {
+        public void setOper(char operation) {
                 this.operation = operation;
         }
 
-        public int getResult(int result) {
-                return result;
+        public void calculate() {
+            int result = 0;
 
+            switch (operation) {
+                case '+':
+                    result = firstNumber + secondNumber;
+                    break;
+                case '-':
+                    result = firstNumber - secondNumber;
+                    break;
+                case '*':
+                    result = firstNumber * secondNumber;
+                    break;
+                case '/':
+                    result = firstNumber / secondNumber;
+                    break;
+                case '^':
+                    result = 1;
+                    for(int i = 0; i < secondNumber; i++) {
+                        result *= firstNumber;
+                    }
+                    break;
+                case '%':
+                        result = firstNumber % secondNumber;
+                    break;
+                default:
+                    System.out.println("Math operations: '+', '-', '*', '/', '^', '%'");
         }
-
-        public void Calculate() {
-          switch (operation) {
-                    case '+':
-                            result = firstnumber + secondnumber;
-                            break;
-                     case '-':
-                            result = firstnumber + secondnumber;
-                            break;
-                     case '*':
-                            result = firstnumber + secondnumber;
-                            break;
-                     case '/':
-                            result = firstnumber + secondnumber;
-                            break;
-                     case '^':
-                            for(int i = 1; i <=secondnumber;i++) {
-                                    result *= firstnumber;
-
-                                  }
-                                  break;
-                     case '%':
-                           result = firstnumber + secondnumber;
-                           break;
-            }
-      }
+        System.out.println("Answer = " + result);
+    }
 }
 
 

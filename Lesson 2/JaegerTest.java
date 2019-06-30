@@ -13,7 +13,7 @@ public static void main(String[] args) {
     jaegerFirst.setHeight(72.54f);
     jaegerFirst.setWeight(7.890f);
 
-    //System.out.println(jaegerFirst.getLaunched());
+    System.out.println(jaegerFirst.getLaunched());
 
     Jaeger jaegerSecond = new Jaeger();
     jaegerSecond.setLaunched(2018);
@@ -25,7 +25,7 @@ public static void main(String[] args) {
     jaegerSecond.setHeight(70.91f);
     jaegerSecond.setWeight(2.198f);
 
-    //System.out.println(jaegerSecond.getMark());
+    System.out.println(jaegerSecond.getMark());
 
     }
 }
