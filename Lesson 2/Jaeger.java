@@ -5,14 +5,14 @@ Bracer Phoenix https://pacificrim.fandom.com/wiki/Bracer_Phoenix
 */
 public class Jaeger {
 
-    int launched;
-    String mark;
-    String status;
-    String weapon;
-    String bodylanguage;
-    String pilot;
-    float height;
-    float weight;
+    private int launched;
+    private String mark;
+    private String status;
+    private String weapon;
+    private String bodylanguage;
+    private String pilot;
+    private float height;
+    private float weight;
 
     public int getLaunched() {
         return  launched;
