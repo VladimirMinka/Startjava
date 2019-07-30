@@ -1,30 +1,26 @@
 public class JaegerTest {
 
-public static void main(String[] args) {
-    Jaeger jaegerFirst = new Jaeger();
+    public static void main(String[] args) {
+        Jaeger jaegerFirst = new Jaeger(2015, "Horizon Brave", "Destroyed", "Cryo-cannon", "English", "Lo Hin Shen", 72.54f, 7.890f);
 
-        jaegerFirst.setLaunched(2015);
-        jaegerFirst.setMark("Mark-1");
-        jaegerFirst.setStatus("Destroyed");
-        jaegerFirst.setWeapon("Cryo-cannon");
-        jaegerFirst.setBodylanguage("English");
-        jaegerFirst.setPilot("Lo Hin Shen");
-        jaegerFirst.setHeight(72.54f);
-        jaegerFirst.setWeight(7.890f);
+        jaegerFirst.getLaunched();
+        jaegerFirst.getMark();
+        jaegerFirst.getStatus();
+        jaegerFirst.getWeapon();
+        jaegerFirst.getBodylanguage();
+        jaegerFirst.getPilot();
+        jaegerFirst.getHeight();
+        jaegerFirst.getWeight();
 
-        System.out.println(jaegerFirst.getLaunched());
+        Jaeger jaegerSecond = new Jaeger(2018, "Bracer Phoenix", "destroyed", "Anti-Kaiju", "Mobile Artillery", "Viktoriya Malikova", 70.91f, 2.198f);
 
-        Jaeger jaegerSecond = new Jaeger();
-
-        jaegerSecond.setLaunched(2018);
-        jaegerSecond.setMark("Mark-5");
-        jaegerSecond.setStatus("Destroyed");
-        jaegerSecond.setWeapon("Anti-Kaiju");
-        jaegerSecond.setBodylanguage("Mobile Artillery");
-        jaegerSecond.setPilot("Viktoriya Malikova");
-        jaegerSecond.setHeight(70.91f);
-        jaegerSecond.setWeight(2.198f);
-
-        System.out.println(jaegerSecond.getMark());
+        jaegerSecond.getLaunched();
+        jaegerSecond.getMark();
+        jaegerSecond.getStatus();
+        jaegerSecond.getWeapon();
+        jaegerSecond.getBodylanguage();
+        jaegerSecond.getPilot();
+        jaegerSecond.getHeight();
+        jaegerSecond.getWeight();
     }
 }

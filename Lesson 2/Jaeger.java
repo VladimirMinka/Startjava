@@ -14,8 +14,30 @@ public class Jaeger {
     private float height;
     private float weight;
 
+    public Jaeger(int launched,String mark,String status, String  weapon, String bodylanguage, String pilot,float height, float weight) {
+        launched = 2015;
+        mark = "Horizon_Brave";
+        status = "Destroyed";
+        weapon = "Cryo-cannon";
+        bodylanguage = "English";
+        pilot = "Lo Hin Shen";
+        height = 72.54f;
+        weight = 7.890f;
+
+        launched = 2018;
+        mark = "Bracer Phoenix";
+        status = "Destroyed";
+        weapon = "Anti-Kaiju";
+        bodylanguage = "Mobile Artillery";
+        pilot = "Viktoriya Malikova";
+        height = 70.91f;
+        weight = 2.198f;
+
+        height =70.91f;
+    }
+
     public int getLaunched() {
-        return  launched;
+        return launched;
     }
 
     public void setLaunched(int launched) {
@@ -23,7 +45,7 @@ public class Jaeger {
     }
 
     public String getMark() {
-        return  mark;
+        return mark;
     }
 
     public void setMark(String mark) {
@@ -31,7 +53,7 @@ public class Jaeger {
     }
 
     public String getStatus() {
-        return  status;
+        return status;
     }
 
     public void setStatus(String status) {
@@ -73,6 +95,7 @@ public class Jaeger {
     public float getWeight() {
         return weight;
     }
+
     public void setWeight(float weight) {
         this.weight = weight;
     }
