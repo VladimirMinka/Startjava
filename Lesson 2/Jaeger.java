@@ -32,8 +32,6 @@ public class Jaeger {
         pilot = "Viktoriya Malikova";
         height = 70.91f;
         weight = 2.198f;
-
-        height =70.91f;
     }
 
     public int getLaunched() {
