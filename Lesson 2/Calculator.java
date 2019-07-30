@@ -39,7 +39,7 @@ public class Calculator {
                 }
                 break;
             case '%':
-                    result = firstNumber % secondNumber;
+                result = firstNumber % secondNumber;
                 break;
             default:
                 System.out.println("Math operations: '+', '-', '*', '/', '^', '%'");

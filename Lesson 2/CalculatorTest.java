@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class CalculatorTest {
 
     public static void main(String[] args) {
@@ -19,12 +20,10 @@ public class CalculatorTest {
 
             calculator.calculate();
 
-        do {
-            System.out.println("Do you want to continue: Yes or No ?");
+            do {
+                System.out.println("Do you want to continue: Yes or No ?");
                 answer = scan.nextLine();
-                if (answer != "Yes" | answer != "No") {
-                }
-            } while (answer == "No" || answer == "Yes");
+            } while (answer == "Yes" || answer == "No");
         } while (answer.equals("Yes"));
     }
 }
