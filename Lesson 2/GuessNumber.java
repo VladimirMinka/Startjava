@@ -7,21 +7,22 @@ public class GuessNumber {
     private Player firstPlayer;
     private Player secondPlayer;
 
-    public GuessNumber(Player firstPlayer, Player secondPlayer, int numbers) {
+    public GuessNumber(Player firstPlayer, Player secondPlayer) {
         this.firstPlayer = firstPlayer;
         this.secondPlayer = secondPlayer;
-        this.numbers = numbers;
+        numbers = (int) (Math.random() * 101);
     }
 
     public void startGame() {
         System.out.println("   ");
         System.out.println("Start");
+
         do {
 
             System.out.println(firstPlayer.getName() + " your number:");
             firstPlayer.setNumber(scan.nextInt());
 
-            if(firstPlayer.getNumber() == numbers) {
+            if (firstPlayer.getNumber() == numbers) {
                 System.out.println(firstPlayer.getName() + "You win");
                 break;
             } else if (firstPlayer.getNumber() > numbers) {
@@ -33,14 +34,14 @@ public class GuessNumber {
             System.out.println(secondPlayer.getName() + " your number:");
             secondPlayer.setNumber(scan.nextInt());
 
-            if(secondPlayer.getNumber() == numbers) {
-                System.out.println("You win");
+            if (secondPlayer.getNumber() == numbers) {
+                System.out.println(firstPlayer.getName() + "You win");
                 break;
             } else if (secondPlayer.getNumber() > numbers) {
                 System.out.println("Number must be less");
             } else if (secondPlayer.getNumber() < numbers) {
                 System.out.println("Number must be more");
             }
-        } while (firstPlayer.getNumber() != numbers || secondPlayer.getNumber() != numbers);
+        } while (true);
     }
 }

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class GuessNumberTest {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -10,12 +11,11 @@ public class GuessNumberTest {
 
             System.out.println("Enter SecondPlayer names : ");
             Player secondPlayer = new Player(scan.nextLine());
-
-            GuessNumber guess = new GuessNumber(firstPlayer,secondPlayer,(int) (Math.random() * 101));
-
+            GuessNumber guess = new GuessNumber(firstPlayer, secondPlayer);
             guess.startGame();
 
             do {
+
                 System.out.println("Do you want to continue? [Yes/No]");
                 answer = scan.nextLine();
                 if (!answer.equals("Yes") || !answer.equals("No")) {
