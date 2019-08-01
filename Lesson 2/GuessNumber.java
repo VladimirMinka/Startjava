@@ -18,12 +18,11 @@ public class GuessNumber {
         System.out.println("Start");
 
         do {
-
             System.out.println(firstPlayer.getName() + " your number:");
             firstPlayer.setNumber(scan.nextInt());
 
             if (firstPlayer.getNumber() == numbers) {
-                System.out.println(firstPlayer.getName() + "You win");
+                System.out.println(firstPlayer.getName() + " " + "You win");
                 break;
             } else if (firstPlayer.getNumber() > numbers) {
                 System.out.println("Number must be less");

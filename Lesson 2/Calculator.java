@@ -19,7 +19,7 @@ public class Calculator {
 
     public void calculate() {
         int result = 0;
-         switch (operation) {
+        switch (operation) {
             case '+':
                 result = firstNumber + secondNumber;
                 break;
@@ -34,7 +34,7 @@ public class Calculator {
                 break;
             case '^':
                 result = 1;
-                for(int i = 1; i < secondNumber; i++) {
+                for (int i = 1; i < secondNumber; i++) {
                     result *= firstNumber;
                 }
                 break;

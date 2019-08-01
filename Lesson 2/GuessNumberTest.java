@@ -12,17 +12,12 @@ public class GuessNumberTest {
             System.out.println("Enter SecondPlayer names : ");
             Player secondPlayer = new Player(scan.nextLine());
             GuessNumber guess = new GuessNumber(firstPlayer, secondPlayer);
+
             guess.startGame();
 
             do {
-
-                System.out.println("Do you want to continue? [Yes/No]");
+                System.out.println("Do you want to continue: Yes or No?");
                 answer = scan.nextLine();
-                if (!answer.equals("Yes") || !answer.equals("No")) {
-                    break;
-                } else {
-                    System.out.println("Says only Yes or No!");
-                }
             } while (!answer.equals("Yes") && !answer.equals("No"));
         } while (answer.equals("Yes"));
     }
