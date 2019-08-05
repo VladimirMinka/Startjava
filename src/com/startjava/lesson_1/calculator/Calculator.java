@@ -1,5 +1,5 @@
-package com.startjava.lesson_1.calculate;
-public class Calculate {
+package com.startjava.lesson_1;
+public class Calculator {
     public static void main(String[] args) {
         int a = 50;
         int b = 60;

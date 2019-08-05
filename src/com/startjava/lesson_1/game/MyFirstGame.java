@@ -1,4 +1,4 @@
-package com.startjava.lesson_1.myfirstgame;
+package com.startjava.lesson_1;
 public class MyFirstGame {
     public static void main(String[] args) {
         int inputNumber = 10;
@@ -12,9 +12,7 @@ public class MyFirstGame {
                 System.out.println("The number entered by you is less than the fact that thought of the computer");
                 inputNumber += 1;
             }
-        }
         System.out.println("You guessed");
     }
 }
-
-
+}
