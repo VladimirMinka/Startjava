@@ -1,4 +1,4 @@
-package com.startjava.lesson_2_3.calculator;
+package com.startjava.lesson_2_3_4.calculator;
 import java.util.Scanner;
 
 public class CalculatorTest {
@@ -10,13 +10,13 @@ public class CalculatorTest {
 
         do {
             System.out.println("Enter the first number: ");
-            calculator.setFirstNumber(scan.nextInt());
+            calculator.mathOperation(scan.nextLine());
 
             System.out.println("Enter the math operation: ");
-            calculator.setOperation(scan.next().charAt(0));
+            calculator.mathOperation(scan.nextLine());
 
             System.out.println("Enter the second number: ");
-            calculator.setSecondNumber(scan.nextInt());
+            calculator.mathOperation(scan.nextLine());
             scan.nextLine();
 
             calculator.calculate();
